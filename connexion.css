@@ -14,10 +14,25 @@ footer{
 	text-align:center;
 }
 
+#checker{
+	display:flex;
+	justify-content: space-around;
+}
+
+#checker1, #checker2, #checker3{
+	display:flex;
+	flex-direction:column-reverse;
+}
+
+#checker2{
+	justify-content:flex-end;
+}
+
 .block_form{
 	background-color:grey;
 	border:1px solid black;
-	height:250px;
+	height:auto;
+	padding-bottom:2%;
 	width:400px;
 	text-align:center;
 	margin-right:auto;
@@ -28,12 +43,12 @@ footer{
 }
 
 
-.identifiant, .pwd, .email{
+.text_box{
 	width:80%;
 }
 
 
-.submit{
+.submit, #reset{
 	width:83%;
 	height:10%;
 }
