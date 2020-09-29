@@ -1,6 +1,13 @@
 html{
 	font-family:'Courier';
+	background-color:rgb(168, 212, 224);
 }
+
+.block_form{
+	background-color:grey;
+	border:1px solid black;
+}
+
 
 #identifiant{
 
