@@ -1,22 +1,39 @@
 html{
-	font-family:'Courier';
+	font-family:'Oswald','Courier';
 	background-color:rgb(168, 212, 224);
+}
+
+header img{
+	display:block;
+	width:10%;
+	margin-right:auto;
+	margin-left:auto;
+}
+
+footer{
+	text-align:center;
 }
 
 .block_form{
 	background-color:grey;
 	border:1px solid black;
+	height:250px;
+	width:400px;
+	text-align:center;
+	margin-right:auto;
+	margin-left:auto;
+	margin-top:2%;
+	border-radius:13px;
+	box-shadow: 2px 2px 2px black;
 }
 
 
-#identifiant{
-
+.identifiant, .pwd, .email{
+	width:80%;
 }
 
-#pwd{
 
-}
-
-#submit{
-
+.submit{
+	width:83%;
+	height:10%;
 }

@@ -4,23 +4,28 @@
 
 	<head>
 		<meta charset="UTF-8">
+		<link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet"> 
 		<link rel="stylesheet" href="connexion.css">
 		<title>Mot de passe</title>
 	</head>
 
 	<body>
+		<header>
+			<img src="nsa.svg" alt=""/>
+		</header>
+		
 		<section class="block_form">
 			<h1>Mot de passe oublié ?</h1>
 
-			<label for="email">Veuillez saisir votre adresse mail</label><br>
-			<input id="email" name="email" type="text" placeholder="Ex: john_doe@gmail.com"><br>
-			<input type="submit" id="submit" value="Valider">
+			<label for="email">Veuillez saisir votre adresse mail</label><br><br>
+			<input class="email" name="email" type="text" placeholder="Ex: john_doe@gmail.com"><br><br>
+			<button type="submit" class="submit" onclick:"alert('Un e-mail vient de vous être envoyé.')">Valider</button>
 		
 		</section>
 
-		<section id="under_form">
+		<footer>
 			<p>Retourner à l'<a href="connexion.html">Accueil</a></p>
-		</section>
+		</footer>
 
 
 	</body>
