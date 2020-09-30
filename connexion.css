@@ -49,7 +49,7 @@ button{
 	border-radius:3px;
 }
 
-button:hover{
+.submit:hover{
 	background:linear-gradient(#cae8cd, #B8D18A);
 }
 
