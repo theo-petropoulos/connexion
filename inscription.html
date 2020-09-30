@@ -20,20 +20,20 @@
 			<section id="flexbox">
 			
 				<label for="identifiant">Identifiant :</label><br>
-				<input type="text" class="text_box" name="identifiant" placeholder="Ex: john-doe68" required><br><br>
+				<input type="text" id="identifiant" name="identifiant" placeholder="Ex: john-doe68" required><br><br>
 				<label for="pwd">Mot de passe :</label><br>
-				<input type="password" class="text_box" name="pwd" placeholder="Mot de passe" required><br><br>
-				<label for="pwd">Confirmez le mot de passe :</label><br>
-				<input type="password" class="text_box" name="pwd" placeholder="Confirmez le mot de passe" required><br><br>
+				<input type="password" id="pwd" name="pwd" placeholder="Mot de passe" required><br><br>
+				<label for="confirm_pwd">Confirmez le mot de passe :</label><br>
+				<input type="password" id="confirm_pwd" name="pwd" placeholder="Confirmez le mot de passe" required><br><br>
 				<label for="email">Adresse mail :</label><br>
-				<input type="email" class="text_box" name="email" required placeholder="Ex: john_doe68@gmail.com"><br><br>
+				<input type="email" id="email" name="email" required placeholder="Ex: john_doe68@gmail.com"><br><br>
 				<label for="birthday">Date de naissance :</label><br>
-				<input type="date" class="text_box" name ="birthday" required><br><br>
+				<input type="date" id="birthday" name ="birthday" required><br><br>
 				<label for="nom">Nom :</label><br>
-				<input type="text" class="text_box" name="nom" placeholder="Ex: Doe"><br><br>
+				<input type="text" id="nom" name="nom" placeholder="Ex: Doe"><br><br>
 				<label for="prenom">Prénom :</label><br>
-				<input type="text" class="text_box" name="prenom" placeholder="Ex: John"><br><br>
-				<label for="sexe">Sexe :</label><br>
+				<input type="text" id="prenom" name="prenom" placeholder="Ex: John"><br><br>
+				<h3>Sexe :</h3><br>
 				<input type="radio" id="homme" name="sexe" required>
 				<label for="homme">Homme</label>
 				<input type="radio" id="femme" name="sexe">
@@ -49,31 +49,31 @@
 					<option value="sup_bac_5">Suppérieur à Bac+5</option>
 				</select><br><br>
 				<label for="phone">Téléphone:</label><br>
-				<input type="tel" class="text_box" name="phone" placeholder="Ex: 06-07-08-09-10" pattern="[0-9]{2}-[0-9]{2}-[0-9]{2}-[0-9]{2}-[0-9]{2}"><br><br>
+				<input type="tel" id="phone" name="phone" placeholder="Ex: 06-07-08-09-10" pattern="[0-9]{2}-[0-9]{2}-[0-9]{2}-[0-9]{2}-[0-9]{2}"><br><br>
 				<label for="presentation">Présentez-vous :</label><br>
-				<textarea name="presentation" rows="15" cols="40" placeholder="Je m'appelle John Doe. J'ai 34 ans et je viens du Haut-Rhin..."></textarea><br><br>
-				<label for="hobbies">Centres d'intérêt:</label><br><br>
+				<textarea id="presentation" name="presentation" rows="15" cols="40" placeholder="Je m'appelle John Doe. J'ai 34 ans et je viens du Haut-Rhin..."></textarea><br><br>
+				<h3>Centres d'intérêt:</h3><br><br>
 				<div id="checker">
 					<div id="checker1">
-						<input type="checkbox" name="hobby1" value="cinema"><label for="hobby1">Cinéma</label> 
-						<input type="checkbox" name="hobby2" value="voyages"><label for="hobby2">Voyages</label>
-						<input type="checkbox" name="hobby3" value="jeu_video"><label for="hobby3">Jeux Vidéos</label> 
-						<input type="checkbox" name="hobby4" value="sport"><label for="hobby4">Sport</label>
-						<input type="checkbox" name="hobby5" value="arts"><label for="hobby5">Arts</label> 
+						<input type="checkbox" id="cinema" name="cinema" value="cinema"><label for="cinema">Cinéma</label> 
+						<input type="checkbox" id="voyages" name="voyages" value="voyages"><label for="voyages">Voyages</label>
+						<input type="checkbox" id="jeux_videos" name="jeux_videos" value="jeux_videos"><label for="jeux_videos">Jeux Vidéos</label> 
+						<input type="checkbox" id="sport" name="sport" value="sport"><label for="sport">Sport</label>
+						<input type="checkbox" id="arts" name="arts" value="arts"><label for="arts">Arts</label> 
 					</div>
 					<div id="checker2">
-						<input type="checkbox" name="hobby6" value="cuisine"><label for="hobby6">Cuisine</label>
-						<input type="checkbox" name="hobby7" value="musique"><label for="hobby7">Musique</label> 
-						<input type="checkbox" name="hobby8" value="ecriture"><label for="hobby8">Écriture</label>
-						<input type="checkbox" name="hobby9" value="lecture"><label for="hobby9">Lecture</label> 
-						<input type="checkbox" name="hobby10" value="photo"><label for="hobby10">Photographie</label>
+						<input type="checkbox" id="cuisine" name="cuisine" value="cuisine"><label for="cuisine">Cuisine</label>
+						<input type="checkbox" id="musique" name="musique" value="musique"><label for="musique">Musique</label> 
+						<input type="checkbox" id="ecriture" name="ecriture" value="ecriture"><label for="ecriture">Écriture</label>
+						<input type="checkbox" id="lecture" name="lecture" value="lecture"><label for="lecture">Lecture</label> 
+						<input type="checkbox" id="photo" name="photo" value="photo"><label for="photo">Photographie</label>
 					</div>
 					<div id="checker3">
-						<input type="checkbox" name="hobby11" value="meditation"><label for="hobby11">Méditation</label>
-						<input type="checkbox" name="hobby12" value="camping"><label for="hobby12">Camping</label> 
-						<input type="checkbox" name="hobby13" value="decoration"><label for="hobby13">Décoration</label>
-						<input type="checkbox" name="hobby14" value="programmation"><label for="hobby14">Programmation</label> 
-						<input type="checkbox" name="hobby150" value="mode"><label for="hobby15">Mode</label>
+						<input type="checkbox" id="meditation" name="meditation" value="meditation"><label for="meditation">Méditation</label>
+						<input type="checkbox" id="camping" name="camping" value="camping"><label for="camping">Camping</label> 
+						<input type="checkbox" id="decoration" name="decoration" value="decoration"><label for="decoration">Décoration</label>
+						<input type="checkbox" id="programmation" name="programmation" value="programmation"><label for="programmation">Programmation</label> 
+						<input type="checkbox" id="mode" name="mode" value="mode"><label for="mode">Mode</label>
 					</div>
 				</div>
 		</section><br><br>

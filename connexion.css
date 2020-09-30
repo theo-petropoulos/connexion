@@ -57,6 +57,25 @@ label{
 	color:#000033;
 }
 
+h3{
+	color:#000033;
+	margin-bottom:-15px;
+}
+
+h3, label{
+	font-size:18px;
+	font-family:'Oswald';
+	font-weight:normal;
+}
+
+input{
+	width:80%;
+}
+
+#homme, #femme{
+	width:auto;
+}
+
 #flexbox{
 	column-count:2;
 	column-gap:100px;
